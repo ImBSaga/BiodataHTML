@@ -1,0 +1,57 @@
+header {
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 0%;
+}
+
+header > h1{
+    color: white;
+}
+
+td, th{
+  text-align: left;
+  padding: 8px;
+}
+
+table{
+    font-size: 25px;
+}
+
+
+
+
+article{
+    float: left;
+}
+
+.sidebar{
+    float: left;
+    height: 100%;
+    padding-top: 1px;
+    width: 160px;
+    background-color: lightskyblue;
+}
+.sidebar ul{
+    padding-left: 10px;
+}
+.sidebar li{
+    list-style-type: none;
+}
+.sidebar a{
+    color: black;
+    padding: 5px 5px 5px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.me{
+    float: right;
+}
+  
